@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.logo{
+    height: 40px;
+    /* padding-top: 20px; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 5px;
+    align-items: center;
+}
+
+/* .header1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+.searchbtn{
+    padding-right: 100px;
+    border-radius: 30px;
+}
+
+nav i{
+    padding: 10px;
+}
+
+.right{
+    padding: 2px;
+    
+}
+
+/* .right:hover{
+    
+} */
+.right i{
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.icons p{
+    font-size: 12px;
+}
+
+.subscription{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 30px;
+}
+
+.body{
+    display: flex;
+}
+.nav{
+    height: 100vh;
+    padding: 5px;
+}
+.nav button {
+    padding: 5px;
+    
+}
+.video{
+    height: 150px;
+    width: 200px;
+    border-radius: 18px;
+    padding: 25px 5 5 0px;
+ 
+}
+
+.content{
+    padding-top: 20px;
+    padding-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.avatar2{
+    border-radius: 50%;
+    margin: 5px;
+    height: 30px;
+}
+
+.video_footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer-txt{
+    font-size: 12px;
+    color: grey;
+}
